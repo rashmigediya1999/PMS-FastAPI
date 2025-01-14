@@ -18,4 +18,3 @@ ENV/
 *.egg-info/
 dist/
 build/
-*.log
