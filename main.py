@@ -54,13 +54,13 @@ app = create_app()
 logger = Logger.get_logger(__name__)
 
 
-if __name__ == "__main__":
-    import uvicorn
+# if __name__ == "__main__":
+#     import uvicorn
     
-    uvicorn.run(
-        "main:app",
-        host=settings.config["server"]["host"],
-        port=settings.config["server"]["port"],
-        reload=settings.config["server"]["reload"],
-        workers=settings.config["server"]["workers"]
-    )
+#     uvicorn.run(
+#         "main:app",
+#         host=settings.config["server"]["host"],
+#         port=settings.config["server"]["port"],
+#         reload=settings.config["server"]["reload"],
+#         workers=settings.config["server"]["workers"]
+#     )
