@@ -1,0 +1,21 @@
+# Ignore Python bytecode and cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Ignore Python-specific files
+*.env
+*.DS_Store
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
